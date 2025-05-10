@@ -29,14 +29,12 @@ An open-source web application for **real-time analytics**, **resource schedulin
    ```bash
    git clone https://github.com/<your-org>/mining-site-analytics.git
    cd mining-site-analytics
-python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate.bat  # Windows
-
-pip install -r requirements.txt
-
-export FLASK_ENV=development
-flask run
+   python3 -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate.bat  # Windows
+   pip install -r requirements.txt
+   export FLASK_ENV=development
+   flask run
 
 1. **Real-time Map Integration**  
    - [ ] Embed live GIS maps with drill-hole locations  
@@ -67,6 +65,7 @@ flask run
    - [ ] Geological data import (GEER, LAS formats)  
 
 
-###contribute
+##Contribute##
+
 -Ready to bring data-driven efficiency to your mine sites?
 -Clone the repo, configure your environment, and start optimizing operations today!
